@@ -1,0 +1,158 @@
+// Variables
+// Colors
+@default: #9099aa; //alias @grey rgb(144, 153, 170)
+@primary: #226dad; //alias @dark-blue rgb(34, 109, 173)
+@success: #9ab946; //alias @green rgb(154, 185, 70)
+@info: #5fb6c7; //alias @blue rgb(95, 182, 199)
+@warning: #f0ad4e; //alias @orange rgb(240, 173, 78)
+@danger: #e74958; //alias @red rgb(231, 73, 88)
+@grey: #9099aa; //rgb(144, 153, 170);
+@green: #9ab946; //rgb(154, 185, 70)
+@green-alt: #01b5a1; //rgb(1, 181, 161)
+@orange: #f0ad4e; //rgb(240, 173, 78)
+@red: #e74958; //rgb(231, 73, 88)
+@violet: #886caf; //rgb(136, 108, 175)
+@blue: #5fb6c7; //rgb(95, 182, 199)
+@dark-blue: #226dad; //rgb(34, 109, 173)
+@purple: #bf408e; //rgb(191, 64, 142)
+@marine: #097a9b; //rgb(9, 122, 155)
+@yellow: #f2d750; //rgb(242, 215, 80)
+@yellow-light: #f5e8a5; //rgb(245, 232, 165)
+@brown: #81473a; //rgb(129, 71, 58)
+@khaki: #a69958; //rgb(166, 153, 88)
+@pink: #db7093; //rgb(219, 112, 147)
+// Default Grey
+@default-dark: darken(@default, 15%); //#677287 rgb(103, 114, 135)
+@default-darker: darken(@default, 25%); //#51596a rgb(81, 89, 106)
+@default-darkest: darken(@default, 40%); //#30353e rgb(48, 53, 62)
+@default-light: lighten(@default, 20%); //#caced6 rgb(202, 206, 214)
+@default-lighter: lighten(@default, 27%); //#dee1e6 rgb(222, 225, 230)
+@default-lightest: lighten(@default, 34%); //#f2f3f5 rgb(242, 243, 245)
+// Primary DarkBlue
+@dark-blue-dark: darken(@dark-blue, 5%); //#1e6098 rgb(30, 96, 152)
+@dark-blue-darker: darken(@dark-blue, 15%); //#15456d rgb(21, 69, 109)
+@dark-blue-darkest: darken(@dark-blue, 23%); //#0f2f4b rgb(15, 47, 75)
+@dark-blue-light: lighten(@dark-blue, 20%); //#57a0de rgb(87, 160, 222)
+@dark-blue-lighter: lighten(@dark-blue, 45%); //#c2dcf3 rgb(194, 220, 243)
+@dark-blue-lightest: lighten(@dark-blue, 55%); //#ecf4fb rgb(236, 244, 251)
+// Success Green
+@green-dark: darken(@green, 5%); //#8ba73f rgb(139, 167, 63)
+@green-darker: darken(@green, 20%); //#5c6f2a rgb(92, 111, 42)
+@green-darkest: darken(@green, 33%); //#343f18 rgb(52, 63, 24)
+@green-light: lighten(@green, 17%); //#bcd185 rgb(188, 209, 133)
+@green-lighter: lighten(@green, 27%); //#d1dfaa rgb(209, 223, 170)
+@green-lightest: lighten(@green, 33%); //#dde7c0 rgb(221, 231, 192)
+// Info Blue
+@blue-dark: darken(@blue, 8%); //#42a8bc rgb(66, 168, 188)
+@blue-darker: darken(@blue, 15%); //#3890a1 rgb(56, 144, 161)
+@blue-darkest: darken(@blue, 23%); //#2e7583 rgb(46, 117, 131)
+@blue-light: lighten(@blue, 15%); //#98d0db rgb(152, 208, 219)
+@blue-lighter: lighten(@blue, 25%); //#bde1e8 rgb(189, 225, 232)
+@blue-lightest: lighten(@blue, 33%); //#dceff3 rgb(220, 239, 243)
+// Warning Orange
+@orange-dark: darken(@orange, 5%); //#eea236 rgb(238, 162, 54)
+@orange-darker: darken(@orange, 15%); //#df8a13 rgb(223, 138, 19)
+@orange-darkest: darken(@orange, 25%); //#b06d0f rgb(176, 109, 15)
+@orange-light: lighten(@orange, 17%); //#f7d29e rgb(247, 210, 158)
+@orange-lighter: lighten(@orange, 25%); //#fae3c4 rgb(250, 227, 196)
+@orange-lightest: lighten(@orange, 33%); //#fdf5e9 rgb(253, 245, 233)
+// Danger Red
+@red-dark: darken(@red, 15%); //#c91b2b rgb(201, 27, 43)
+@red-darker: darken(@red, 30%); //#85121d rgb(133, 18, 29)
+@red-darkest: darken(@red, 33%); //#78101a rgb(120, 16, 26)
+@red-light: lighten(@red, 17%); //#f1969e rgb(241, 150, 158)
+@red-lighter: lighten(@red, 30%); //#f9d0d4 rgb(249, 208, 212)
+@red-lightest: lighten(@red, 33%); //#fbdee0 rgb(251, 222, 224)
+// green-alt
+@green-alt-dark: darken(@green-alt, 7%); //#019181 rgb(1, 145, 129)
+@green-alt-darker: darken(@green-alt, 15%); //#01695d rgb(1, 105, 93)
+@green-alt-darkest: darken(@green-alt, 25%); //#003630 rgb(0, 54, 48)
+@green-alt-light: lighten(@green-alt, 7%); //#01d9c1 rgb(1, 217, 193)
+@green-alt-lighter: lighten(@green-alt, 20%); //#1efee5 rgb(30, 254, 229)
+@green-alt-lightest: lighten(@green-alt, 40%); //#84fef1 rgb(132, 254, 241)
+// violet
+@violet-dark: darken(@violet, 8%); //#73559d rgb(115, 85, 157)
+@violet-darker: darken(@violet, 18%); //#5b437c rgb(91, 67, 124)
+@violet-darkest: darken(@violet, 28%); //#43315b rgb(67, 49, 91)
+@violet-light: lighten(@violet, 10%); //#a38dc1 rgb(163, 141, 193)
+@violet-lighter: lighten(@violet, 20%); //#bdaed3 rgb(189, 174, 211)
+@violet-lightest: lighten(@violet, 30%); //#d8cfe5 rgb(216, 207, 229)
+// purple
+@purple-dark: darken(@purple, 8%); //#a03677 rgb(160, 54, 119)
+@purple-darker: darken(@purple, 18%); //#7a295b rgb(122, 41, 91)
+@purple-darkest: darken(@purple, 28%); //#541c3e rgb(84, 28, 62)
+@purple-light: lighten(@purple, 7%); //#c85b9e rgb(200, 91, 158)
+@purple-lighter: lighten(@purple, 20%); //#d98cbb rgb(217, 140, 187)
+@purple-lightest: lighten(@purple, 35%); //#ecc6dd rgb(236, 198, 221)
+// marine
+@marine-dark: darken(@marine, 8%); //#075c74 rgb(7, 92, 116)
+@marine-darker: darken(@marine, 15%); //#054153 rgb(5, 65, 83)
+@marine-darkest: darken(@marine, 20%); //#032e3b rgb(3, 46, 59)
+@marine-light: lighten(@marine, 15%); //#0db3e3 rgb(13, 179, 227)
+@marine-lighter: lighten(@marine, 30%); //#49cef4 rgb(73, 206, 244)
+@marine-lightest: lighten(@marine, 45%); //#91e1f9 rgb(145, 225, 249)
+// yellow
+@yellow-dark: darken(@yellow, 8%); //#efce2a rgb(239, 206, 42)
+@yellow-darker: darken(@yellow, 18%); //#d6b510 rgb(214, 181, 16)
+@yellow-darkest: darken(@yellow, 28%); //#a78d0c rgb(167, 141, 12)
+@yellow-light: lighten(@yellow, 7%); //#f4df71 rgb(244, 223, 113)
+@yellow-lighter: lighten(@yellow, 15%); //#f7e797 rgb(247, 231, 151)
+@yellow-lightest: lighten(@yellow, 25%); //#fbf2c7 rgb(251, 242, 199)
+// yellow-light
+@yellow-light-dark: darken(@yellow-light, 8%); //#f2d64b rgb(242, 214, 75)
+@yellow-light-darker: darken(@yellow-light, 18%); //#eecb1c rgb(238, 203, 28)
+@yellow-light-darkest: darken(@yellow-light, 28%); //#c8a90f rgb(200, 169, 15)
+@yellow-light-light: lighten(@yellow-light, 7%); //#f7e692 rgb(247, 230, 146)
+@yellow-light-lighter: lighten(@yellow-light, 15%); //#faefb8 rgb(250, 239, 184)
+@yellow-light-lightest: lighten(@yellow-light, 25%); //#fdfae8 rgb(253, 250, 232)
+// brown
+@brown-dark: darken(@brown, 8%); //#65382d rgb(101, 56, 45)
+@brown-darker: darken(@brown, 18%); //#42241e rgb(66, 36, 30)
+@brown-darkest: darken(@brown, 24%); //#2d1914 rgb(45, 25, 20)
+@brown-light: lighten(@brown, 10%); //#a45a4a rgb(164, 90, 74)
+@brown-lighter: lighten(@brown, 25%); //#c28678 rgb(194, 134, 120)
+@brown-lightest: lighten(@brown, 40%); //#dab5ad rgb(218, 181, 173)
+// khaki
+@khaki-dark: darken(@khaki, 8%); //#8b804a rgb(139, 128, 74)
+@khaki-darker: darken(@khaki, 15%); //#746b3d rgb(116, 107, 61)
+@khaki-darkest: darken(@khaki, 24%); //#564f2e rgb(86, 79, 46)
+@khaki-light: lighten(@khaki, 10%); //#b8ad79 rgb(184, 173, 121)
+@khaki-lighter: lighten(@khaki, 23%); //#cfc8a4 rgb(207, 200, 164)
+@khaki-lightest: lighten(@khaki, 33%); //#e1dcc6 rgb(225, 220, 198)
+// pink
+@pink-dark: darken(@pink, 8%); //#d34f7a rgb(211, 79, 122)
+@pink-darker: darken(@pink, 20%); //#b72e5b rgb(183, 46, 91)
+@pink-darkest: darken(@pink, 35%); //#7a1f3c rgb(122, 31, 60)
+@pink-light: lighten(@pink, 9%); //#e495af rgb(228, 149, 175)
+@pink-lighter: lighten(@pink, 17%); //#ecb5c7 rgb(236, 181, 199)
+@pink-lightest: lighten(@pink, 25%); //#f5d6e0 rgb(245, 214, 224)
+// Brand colors
+@brand-facebook: #2d4373;
+@brand-twitter: #2c4762;
+@brand-flickr: #ff0084;
+@brand-google-plus: #dd4b39;
+@brand-instagram: #305777;
+@brand-vk: #587ea3;
+@brand-yahoo: #720e9e;
+// Fonts
+@font-family-primary: "Roboto",
+sans-serif;
+@font-family-secondary: "Montserrat",
+sans-serif;
+// Border-radius
+@global-border-radius: 4px;
+@global-border-radius-more-radius: 5px;
+@global-border-radius-lg: 8px;
+// Global Elements Padding*/
+@global-elements-padding: 25px;
+// Global Layout
+@main-top-navbar-height: 55px;
+@sidebar-width: 170px;
+@sidebar-with-small-icons-width: @sidebar-width * 1.5;
+@userbar-width: 290px;
+// Striped backs
+@background-thin-lines: repeating-linear-gradient(-45deg, @default-light, @default-light 2px, rgba(255, 255, 255, .6) 2px, rgba(255, 255, 255, .6) 4px);
+// Dark
+@background-striped-dark: linear-gradient(-45deg, rgba(48, 53, 62, .4) 25%, transparent 25%, transparent 50%, rgba(48, 53, 62, .4) 50%, rgba(48, 53, 62, .4) 75%, transparent 75%, transparent);
+// Dark Transparent
+@background-striped-dark-semi-transparent: linear-gradient(-45deg, rgba(48, 53, 62, .1) 25%, transparent 25%, transparent 50%, rgba(48, 53, 62, .1) 50%, rgba(48, 53, 62, .1) 75%, transparent 75%, transparent);
